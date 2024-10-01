@@ -1,7 +1,19 @@
-<script type="text/javascript">
-    var pathname = window.location.pathname;
-    // Видаліть початковий "/" у pathname для коректного перенаправлення
-    var cleanPathname = pathname.replace(/^\//, '');
-    var redirectUrl = "/IThreve/#" + cleanPathname;
-    window.location.replace(redirectUrl);
-</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/IThreve/landing" />
+    <script>
+        // JavaScript для перенаправлення
+        window.location.href = "/IThreve/landing";
+    </script>
+    <title>404 Not Found</title>
+</head>
+
+<body>
+    <h1>404 Not Found</h1>
+    <p>Redirecting to the landing page...</p>
+</body>
+
+</html>

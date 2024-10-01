@@ -1,7 +1,19 @@
-<script type="text/javascript">
-    var pathname = window.location.pathname;
-    // Видаліть початковий "/" у pathname для коректного перенаправлення
-    var cleanPathname = pathname.replace(/^\//, '');
-    var redirectUrl = "/IThreve/#" + cleanPathname;
-    window.location.replace(redirectUrl);
-</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="refresh" content="0; url=/IThreve/landing" />
+</head>
+
+<body>
+    <script type="text/javascript">
+        var redirect = '/IThreve/landing';
+        var fullpath = window.location.pathname.replace('/IThreve', '');
+        if (fullpath) {
+            redirect = redirect + fullpath;
+        }
+        window.location.href = redirect;
+    </script>
+</body>
+
+</html>

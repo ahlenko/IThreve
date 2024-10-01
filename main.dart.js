@@ -100191,7 +100191,7 @@ A.xN(p,A.m9(p,"signup/"+s),q)}else{p.toString
 A.xN(p,A.m9(p,"signup"),q)}},
 aiW(){var s=this.c
 s.toString
-A.jh(s).jx(0,"/dashboard",null)}}
+A.jh(s).jx(0,"/IThreve/dashboard",null)}}
 A.aMN.prototype={
 $2(a,b){var s=null,r=b.a,q=r==="linkedin"?A.ay("assets/vector/logo/linkedin_logo.svg",s,s,B.t,s,s):s,p=this.a
 return A.eI(s,B.dA,new A.CA(p.m2(r,p.d),q,s),s)},
@@ -103203,7 +103203,7 @@ s=A.m9(q,"register-company/"+r.a)
 A.jh(q).jx(0,s,null)},
 aj_(){var s=this.c
 s.toString
-A.xN(s,"/register-vacancy",t.X)}}
+A.xN(s,"/IThreve/register-vacancy",t.X)}}
 A.aQ1.prototype={
 $2(a,b){var s=null,r=this.a
 return A.eI(s,B.dA,new A.Hn(r.m2(b.a,r.d),s,0,b.b,s),s)},
@@ -103246,13 +103246,13 @@ $S:151}
 A.aQa.prototype={
 $1(a){var s=this.a.c
 s.toString
-A.xN(s,"/register-vacancy",t.X)
+A.xN(s,"/IThreve/register-vacancy",t.X)
 return A.aZ([null],t.H)},
 $S:155}
 A.aQc.prototype={
 $1(a){var s=this.a.c
 s.toString
-A.xN(s,"/register-vacancy",t.X)
+A.xN(s,"/IThreve/register-vacancy",t.X)
 return null},
 $S:35}
 A.P7.prototype={
@@ -103940,7 +103940,7 @@ s=A.m9(q,"register-vacancy/"+r.a)
 A.jh(q).jx(0,s,null)},
 aiX(){var s=this.c
 s.toString
-A.jh(s).jx(0,"/dashboard",null)}}
+A.jh(s).jx(0,"/IThreve/dashboard",null)}}
 A.aQd.prototype={
 $2(a,b){var s=null,r=this.a,q=r.d
 return A.eI(s,s,new A.Hn(r.m2(b.a,q),q.z,b.c,b.b,s),s)},
@@ -118846,8 +118846,8 @@ r($,"bDD","bgG",()=>A.v("messages.reasonForDesqualificationHintText",null))
 r($,"bDH","bgK",()=>A.v("messages.requestAnInterview",null))
 r($,"bDU","bgU",()=>A.v("messages.sendInterviewPackage",null))
 s($,"bIq","fC",()=>$.bdG())
-s($,"bIG","bjR",()=>{var q="/landing",p="linkedin",o=null,n=t.yo
-n=A.a([A.cW(new A.aZu(),"landing",q,B.ar),A.cW(new A.aZv(),"login","/login",A.a([A.cW(new A.aZw(),"login/linkedin",p,B.ar),A.cW(new A.aZH(),"login/phone","phone",B.ar),A.cW(new A.aZS(),"login/email","email",B.ar),A.cW(new A.aZX(),"login/code","code",B.ar)],n)),A.cW(new A.aZY(),"signup","/signup",A.a([A.cW(new A.aZZ(),"signup/welcome","welcome",B.ar),A.cW(new A.b__(),"signup/linkedin",p,B.ar),A.cW(new A.b_0(),"signup/phone","phone",B.ar),A.cW(new A.b_1(),"signup/email","email",B.ar),A.cW(new A.aZx(),"signup/code","code",B.ar)],n)),A.cW(new A.aZy(),"register-company","/register-company",A.a([A.cW(new A.aZz(),"register-company/companyName","companyName",B.ar),A.cW(new A.aZA(),"register-company/companyInfo","companyInfo",B.ar),A.cW(new A.aZB(),"register-company/firstJob","firstJob",B.ar),A.cW(new A.aZC(),"register-company/jobLink","jobLink",B.ar),A.cW(new A.aZD(),"register-company/jobFile","jobFile",B.ar),A.cW(new A.aZE(),"register-company/jobWouldLikeAdd","jobWouldLikeAdd",B.ar),A.cW(new A.aZF(),"register-company/needHelpWith","needHelpWith",B.ar)],n)),A.cW(new A.aZG(),"register-vacancy","/register-vacancy",A.a([A.cW(new A.aZI(),"register-vacancy/roleInfo","roleInfo",B.ar),A.cW(new A.aZJ(),"register-vacancy/roleEssential","roleEssential",B.ar),A.cW(new A.aZK(),"register-vacancy/otherInfo","otherInfo",B.ar),A.cW(new A.aZL(),"register-vacancy/importantSkills","importantSkills",B.ar),A.cW(new A.aZM(),"register-vacancy/idealCandidate","idealCandidate",B.ar),A.cW(new A.aZN(),"register-vacancy/filledPositionData","filledPositionData",B.ar),A.cW(new A.aZO(),"register-vacancy/businessEffect","businessEffect",B.ar),A.cW(new A.aZP(),"register-vacancy/coreSkills","coreSkills",B.ar),A.cW(new A.aZQ(),"register-vacancy/campleteStep","campleteStep",B.ar),A.cW(new A.aZR(),"register-vacancy/teamJoined","teamJoined",B.ar),A.cW(new A.aZT(),"register-vacancy/responsibiliti","responsibiliti",B.ar),A.cW(new A.aZU(),"register-vacancy/additionSkills","additionSkills",B.ar),A.cW(new A.aZV(),"register-vacancy/nextRole","nextRole",B.ar)],n)),A.cW(new A.aZW(),"dashboard","/dashboard",B.ar)],n)
+s($,"bIG","bjR",()=>{var q="/IThreve/landing",p="linkedin",o=null,n=t.yo
+n=A.a([A.cW(new A.aZu(),"landing",q,B.ar),A.cW(new A.aZv(),"login","/IThreve/login",A.a([A.cW(new A.aZw(),"login/linkedin",p,B.ar),A.cW(new A.aZH(),"login/phone","phone",B.ar),A.cW(new A.aZS(),"login/email","email",B.ar),A.cW(new A.aZX(),"login/code","code",B.ar)],n)),A.cW(new A.aZY(),"signup","/IThreve/signup",A.a([A.cW(new A.aZZ(),"signup/welcome","welcome",B.ar),A.cW(new A.b__(),"signup/linkedin",p,B.ar),A.cW(new A.b_0(),"signup/phone","phone",B.ar),A.cW(new A.b_1(),"signup/email","email",B.ar),A.cW(new A.aZx(),"signup/code","code",B.ar)],n)),A.cW(new A.aZy(),"register-company","/IThreve/register-company",A.a([A.cW(new A.aZz(),"register-company/companyName","companyName",B.ar),A.cW(new A.aZA(),"register-company/companyInfo","companyInfo",B.ar),A.cW(new A.aZB(),"register-company/firstJob","firstJob",B.ar),A.cW(new A.aZC(),"register-company/jobLink","jobLink",B.ar),A.cW(new A.aZD(),"register-company/jobFile","jobFile",B.ar),A.cW(new A.aZE(),"register-company/jobWouldLikeAdd","jobWouldLikeAdd",B.ar),A.cW(new A.aZF(),"register-company/needHelpWith","needHelpWith",B.ar)],n)),A.cW(new A.aZG(),"register-vacancy","/IThreve/register-vacancy",A.a([A.cW(new A.aZI(),"register-vacancy/roleInfo","roleInfo",B.ar),A.cW(new A.aZJ(),"register-vacancy/roleEssential","roleEssential",B.ar),A.cW(new A.aZK(),"register-vacancy/otherInfo","otherInfo",B.ar),A.cW(new A.aZL(),"register-vacancy/importantSkills","importantSkills",B.ar),A.cW(new A.aZM(),"register-vacancy/idealCandidate","idealCandidate",B.ar),A.cW(new A.aZN(),"register-vacancy/filledPositionData","filledPositionData",B.ar),A.cW(new A.aZO(),"register-vacancy/businessEffect","businessEffect",B.ar),A.cW(new A.aZP(),"register-vacancy/coreSkills","coreSkills",B.ar),A.cW(new A.aZQ(),"register-vacancy/campleteStep","campleteStep",B.ar),A.cW(new A.aZR(),"register-vacancy/teamJoined","teamJoined",B.ar),A.cW(new A.aZT(),"register-vacancy/responsibiliti","responsibiliti",B.ar),A.cW(new A.aZU(),"register-vacancy/additionSkills","additionSkills",B.ar),A.cW(new A.aZV(),"register-vacancy/nextRole","nextRole",B.ar)],n)),A.cW(new A.aZW(),"dashboard","/IThreve/dashboard",B.ar)],n)
 return A.bnl(!0,o,o,o,o,q,o,o,o,!1,o,!0,o,!1,new A.a4K(new A.ayi(n,A.bxz(),5)))})
 r($,"bFV","ei",()=>A.ft(B.j,32,B.W))
 r($,"bFU","e8",()=>A.ft(B.j,20,B.x))

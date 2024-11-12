@@ -120,7 +120,8 @@
         "whatKindOf": "What kind of",
         "effectOnTheBusiness": "effect on the business",
         "wouldTheIdealCandidateHaveOrWhat": "would the ideal candidate have or what challenge will they solve in the business?",
-        "thisCanIncludeInfluenceOnTheTeam": "This can include influence on the team culture, business improvement, improving the product, working on a specific area of the business or the product, etc."
+        "thisCanIncludeInfluenceOnTheTeam": "This can include influence on the team culture, business improvement, improving the product, working on a specific area of the business or the product, etc.",
+        "addLater": "Add later"
     },
     "registerVacancy": {
         "thisIncludesPersonality": "This includes personality, skillsets, mission, personal values, interest, etc.",
@@ -180,7 +181,56 @@
         "youCanEditAnyOfThese": "You can edit any of these information later!",
         "yes": "Yes",
         "goToMyDashboard": "Go to my dashboard!",
-        "mustBeFilled": "Field must be filled"
+        "mustBeFilled": "Field must be filled",
+        "title": "What’s the title of the job role you’re looking to fill?",
+        "congrats": "Congrats, you’ve posted your first job!",
+        "createMoreJobs": "Create more job posts",
+        "additionalTitle": "What additional information do you need to make a fully confident hiring decision?",
+        "additionalDescription": "This can include influence on the team culture, business improvement, improving the product, working on a specific area of the business or the product, etc.",
+        "additionalSkillsTitle": "Here are the additional skills and their suggested levels based on your needs for this role:",
+        "additionalSkillsDescription": "Here is our advanced AI-generated recommendation, crafted from the insights you’ve provided. Feel free to adjust it as needed!",
+        "skills": "Skills",
+        "idealEffectTitle": "What the ideal effect the candidate would have on the business?",
+        "idealEffectDescription": "This can include influence on the team culture, business improvement, improving the product, working on a specific area of the business or the product, etc.",
+        "coreSkillsTitle": "Here are the core skills and their suggested levels based on your needs for this role:",
+        "coreSkillsDescription": "Here is our advanced AI-generated recommendation, crafted from the insights you’ve provided. Feel free to adjust it as needed!",
+        "perfectCandidateTitle": "What would the perfect candidate look like!",
+        "perfectCandidateDescription": "What is their personality like? What skill sets do they have? What kind of mission, personal values, interests, character traits would they have?",
+        "logisticDetailsTitle": "Does the logistical details for this role look right to you?",
+        "logisticDetailsDescription": "The information that’s filled in is based on the job description you’ve already provided. Any areas where we couldn’t find details are filled in with suggested content based on market standards.",
+        "responsibilitiesTitle": "What other responsibilities will the candidate have if hired other than the ones listed?",
+        "responsibilitiesDescription": "This can include their daily activities, the team they’ll join, the aspect of the product they’ll oversee, and more.",
+        "selectOptions": "Select option(s)",
+        "selectOption": "Select option",
+        "min": "Min",
+        "max": "Max",
+        "fullTime": "Full-time",
+        "partTime": "Part-time",
+        "contract": "Contract",
+        "remote": "Remote",
+        "onSite": "On-site",
+        "hybrid": "Hybrid",
+        "visaSponsorshipAvailable": "Visa sponsorship available",
+        "visaSponsorshipNotAvailable": "Visa sponsorship NOT available",
+        "PTO": "PTO",
+        "unlimitedPTO": "Unlimited PTO",
+        "mentalHealthDays": "Mental health days",
+        "stockOptions": "Stock options",
+        "medical": "Medical",
+        "dental": "Dental",
+        "vision": "Vision",
+        "401": "401(k)",
+        "gymMemberships": "Gym memberships",
+        "paidHolidays": "Paid holidays",
+        "sickLeave": "Sick leave",
+        "education": "Education",
+        "performanceBasedBonuses": "Performance-based bonuses",
+        "signOnBonus": "Sign-on bonus",
+        "freeMeals": "Free meals",
+        "paidMaternityLeave": "Paid maternity and paternity leave",
+        "techStipends": "Tech stipends",
+        "mentalHealthResources": "Mental health resources",
+        "enterToSave": "Please hit ‘Enter’ to save."
     },
     "dashboard": {
         "dashboard": "Dashboard",
@@ -328,8 +378,7 @@
         "requestSentDescription": "Thanks for submitting a request! Please click on the option below if you would like to get a notification about any updates about your request.",
         "requestSentCheckboxTitle": "Notify me about my request"
     },
-
-    "messages":{
+    "messages": {
         "nextRound": "Qualify for the next round",
         "maybe": "Maybe",
         "disuqalify": "Disuqalify",
@@ -349,6 +398,5 @@
         "reasonForDesqualificationHintText": "Feel free to put in additional information here!",
         "requestAnInterview": "Request an interview",
         "sendInterviewPackage": "Send the interview package"
-
     }
 }
